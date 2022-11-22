@@ -26,6 +26,22 @@
 // 3
 // 4
 // 5
+//Same As Above Code
+// function a()
+// {
+//     for(var i=1;i<=5;i++)
+//     {
+//         function wrapper(b)
+//         {
+//             setTimeout(function(){
+//                 console.log(b);
+//             },1000*b);
+//         }
+//         wrapper(i);
+//     }
+// }
+// a();
+
 
 // Output
 // function a()
